@@ -17,4 +17,8 @@ $(function(){
       //   },
       // ],
     });
+    //nav
+    $(".icon-list-ul").click(()=>{
+      $(".header__nav").slideToggle()
+    })
 })
